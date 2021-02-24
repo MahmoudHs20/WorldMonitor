@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color-dark);
+  padding: 10px 6px;
+  border-radius: 8px;
+  color: var(--text-color-secondary);
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 7px;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+.input::placeholder {
+  color: var(--text-color-secondary);
+}
